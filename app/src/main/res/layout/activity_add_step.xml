@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#26314A"
+        android:gravity="center"
+        android:text="@string/add_step"
+        android:textColor="#4CB963"
+        android:textSize="25sp"
+        android:fontFamily="@font/lobster"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/title_et"
+            android:layout_width="match_parent"
+            android:minHeight="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:background="@color/colorPrimary"
+            android:hint="@string/give_step_title" />
+
+        <EditText
+            android:id="@+id/content_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/add_step_btn"
+            android:layout_below="@+id/title_et"
+            android:gravity="top"
+            android:hint="@string/give_step_desc" />
+
+        <Button
+            android:id="@+id/add_step_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/add_step" />
+    </RelativeLayout>
+</LinearLayout>

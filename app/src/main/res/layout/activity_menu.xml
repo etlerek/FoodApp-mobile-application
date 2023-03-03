@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    https://icons8.com-->
+
+    <LinearLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/header_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#26314A"
+            android:gravity="center"
+            android:text="@string/food_app"
+            android:textColor="#4CB963"
+            android:textSize="25sp"
+            android:fontFamily="@font/lobster"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/table_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_layout"
+        android:background="@drawable/gradient_background"
+        android:stretchColumns="0,1">
+
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/to_fridge_activ"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/fridge_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/my_fridge"
+                        android:layout_gravity="center|bottom"
+                        android:clickable="false"
+                        android:textColor="@color/black"
+                        android:padding="5dp"
+                        android:fontFamily="@font/lobster"
+                        android:textSize="18sp" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/to_browse_recipes_activity"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/search_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/find_recipes"
+                        android:layout_gravity="center|bottom"
+                        android:clickable="false"
+                        android:textColor="@color/black"
+                        android:padding="5dp"
+                        android:fontFamily="@font/lobster"
+                        android:textSize="18sp" />
+                </FrameLayout>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/to_add_recipe_activity"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/add_recipe_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:clickable="false"
+                        android:text="@string/add_recipe"
+                        android:textColor="@color/black"
+                        android:padding="5dp"
+                        android:fontFamily="@font/lobster"
+                        android:textSize="18sp" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/to_saved_recipes_activity"
+
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:scaleType="centerInside"
+
+                        android:src="@drawable/favourites_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/saved_recipes"
+                        android:layout_gravity="center|bottom"
+                        android:textColor="@color/black"
+                        android:clickable="false"
+                        android:padding="5dp"
+                        android:fontFamily="@font/lobster"
+                        android:textSize="18sp" />
+                </FrameLayout>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/to_browse_ingredients_activity"
+                android:layout_gravity="center"
+                android:width="150dp"
+                android:height="150dp"
+                android:text="@string/browse_ingredients"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/to_shopping_list_activity"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/shopping_list" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shopping_list"
+                        android:layout_gravity="center|bottom"
+                        android:textColor="@color/black"
+                        android:clickable="false"
+                        android:padding="5dp"
+                        android:fontFamily="@font/lobster"
+                        android:textSize="18sp" />
+                </FrameLayout>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

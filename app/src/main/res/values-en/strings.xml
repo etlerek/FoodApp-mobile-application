@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fill_name">Fill name</string>
+    <string name="fill_diff">Fill difficulty</string>
+    <string name="fill_time">Fill time</string>
+    <string name="fill_all_fields">Fill all fields, please</string>
+    <string name="added_to_favourites">Added to favourites</string>
+    <string name="diff">difficulty:</string>
+    <string name="time">Time:</string>
+    <string name="portions">Portions:</string>
+    <string name="min">min</string>
+    <string name="favourites_plus">Favourites +</string>
+    <string name="favourites_minus">Favourites -</string>
+    <string name="kcal">kcal:</string>
+    <string name="protein_short_colon">p:</string>
+    <string name="sugar_short_colon">s:</string>
+    <string name="fat_short_colon">f:</string>
+    <string name="main">Main</string>
+    <string name="sub">Sub</string>
+    <string name="compatibility">compatibility</string>
+    <string name="choose_category">choose category</string>
+    <string name="choose_diff">choose difficulty</string>
+    <string name="quantity_not_required">(quantity not required)</string>
+    <string name="how_much_you_have">How much do you have</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="recipe_name">Recipe name...</string>
+    <string name="add_subcategory">Add subcategory +</string>
+    <string name="time_no_colon">time</string>
+    <string name="portion_quantity">Quantity:</string>
+    <string name="quantity">Quantity</string>
+    <string name="general_desc">General description</string>
+    <string name="main_ingredients_colon">Main ingredients:</string>
+    <string name="add_new_main_ingredient">+ Add new main ingredient</string>
+    <string name="sub_ingredients_colon">Sub ingredients:</string>
+    <string name="add_new_sub_ingredient">+ Add new sub ingredient</string>
+    <string name="add_step">Add step</string>
+    <string name="add_recipe">Add recipe</string>
+    <string name="give_step_title">Type step title...</string>
+    <string name="give_step_desc">Type step description</string>
+    <string name="ingredients_in_fridge_colon">Ingredients in fridge</string>
+    <string name="add_new_ingredient">Add new ingredient</string>
+    <string name="favourite">Favourite</string>
+    <string name="shopping_list_colon">Shopping list:</string>
+    <string name="name">Name</string>
+    <string name="kcal_no_colon">kcal</string>
+    <string name="protein">protein</string>
+    <string name="sugar">sugar</string>
+    <string name="fat">fat</string>
+    <string name="delete_from_frigde">remove from fridge</string>
+    <string name="edit_quantity">edit quantity</string>
+    <string name="add_to_shopping_list">add to shopping list</string>
+    <string name="show_similar_ingredients">show similar ingredients</string>
+    <string name="delete_from_shopping_list">remove from shopping list</string>
+    <string name="move_to_fridge">move to fridge</string>
+    <string name="food_app">FoodApp</string>
+    <string name="my_fridge">Fridge</string>
+    <string name="find_recipes">Find recipe</string>
+    <string name="saved_recipes">Saved recipes</string>
+    <string name="browse_ingredients">Browse ingredients</string>
+    <string name="shopping_list">Shopping list</string>
+    <string name="search_ingredient">search ingredient...</string>
+    <string name="recipe_details">Szczegóły przepisu</string>
+    <string-array name="types">
+        <item>gram</item>
+        <item>pieces</item>
+        <item>spoon</item>
+    </string-array>
+    <string-array name="difficulty">
+        <item>choose difficulty</item>
+        <item>easy</item>
+        <item>medium</item>
+        <item>hard</item>
+    </string-array>
+    <string-array name="category">
+        <item>choose category</item>
+        <item>breakfast</item>
+        <item>second breakfast</item>
+        <item>lunch</item>
+        <item>dinner</item>
+        <item>supper</item>
+        <item>snack</item>
+        <item>dessert</item>
+    </string-array>
+</resources>

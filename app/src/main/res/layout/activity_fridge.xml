@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_fridge_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="#26314A"
+        android:textColor="#4CB963"
+        android:fontFamily="@font/lobster"
+        android:text="@string/ingredients_in_fridge_colon"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ingredients_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_fridge_header"
+        android:background="@drawable/gradient_background"
+        android:padding="5dp"
+        android:layout_above="@+id/rv_buttons">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/rv_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:background="#323230"
+        >
+
+        <Button
+            android:id="@+id/add_ingredient_to_fridge_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_new_ingredient"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

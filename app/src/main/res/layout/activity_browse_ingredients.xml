@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.BrowseIngredientsActivity">
+
+        <TextView
+            android:id="@+id/header_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#26314A"
+            android:gravity="center"
+            android:text="@string/browse_ingredients"
+            android:textColor="#4CB963"
+            android:textSize="25sp"
+            android:fontFamily="@font/lobster"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/find_ingredient"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/green"
+            android:padding="10dp"
+            android:hint="@string/search_ingredient"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ingredients_view"
+            android:layout_width="match_parent"
+            android:background="@drawable/gradient_background"
+            android:padding="10dp"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

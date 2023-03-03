@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">FoodApp</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_browse_ingredients">BrowseIngredientsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="fill_name">Uzupełnij nazwę</string>
+    <string name="fill_diff">Uzupełnij trudność</string>
+    <string name="fill_time">Uzupełnij czas</string>
+    <string name="fill_all_fields">Proszę wszystkie uzupełnić pola</string>
+    <string name="added_to_favourites">Dodano do ulubionych</string>
+    <string name="diff">trudność:</string>
+    <string name="time">Czas:</string>
+    <string name="portions">Porcji:</string>
+    <string name="min">min</string>
+    <string name="favourites_plus">Ulubione +</string>
+    <string name="favourites_minus">Ulubione -</string>
+    <string name="kcal">kcal:</string>
+    <string name="protein_short_colon">b:</string>
+    <string name="sugar_short_colon">c:</string>
+    <string name="fat_short_colon">t:</string>
+    <string name="g">g</string>
+    <string name="main">Main</string>
+    <string name="sub">Sub</string>
+    <string name="compatibility">Zgodność</string>
+    <string name="choose_category">wybierz kategorie</string>
+    <string name="choose_diff">wybierz trudnosc</string>
+    <string name="quantity_not_required">(podanie ilości nie jest wymagane)</string>
+    <string name="how_much_you_have">How much do you have</string>
+    <string name="add">Dodaj</string>
+    <string name="cancel">Anuluj</string>
+    <string name="recipe_name">Nazwa przepisu...</string>
+    <string name="add_subcategory">Dodaj podkategorię +</string>
+    <string name="time_no_colon">czas</string>
+    <string name="portion_quantity">Porcja:</string>
+    <string name="quantity">Ilość</string>
+    <string name="general_desc">Ogólny opis</string>
+    <string name="main_ingredients_colon">Składniki główne:</string>
+    <string name="add_new_main_ingredient">+ Dodaj nowy składnik główny</string>
+    <string name="sub_ingredients_colon">Składniki opcjonalne:</string>
+    <string name="add_new_sub_ingredient">+ Dodaj nowy składnik opcjonalny</string>
+    <string name="add_step">Dodaj krok</string>
+    <string name="add_recipe">Dodaj przepis</string>
+    <string name="give_step_title">Podaj tytuł kroku...</string>
+    <string name="give_step_desc">Podaj opis przygotowania...</string>
+    <string name="ingredients_in_fridge_colon">Składniki w lodówce:</string>
+    <string name="add_new_ingredient">Dodaj nowy składnik</string>
+    <string name="favourite">Ulubione</string>
+    <string name="shopping_list_colon">Lista zakupów:</string>
+    <string name="name">Nazwa</string>
+    <string name="kcal_no_colon">kcal</string>
+    <string name="protein">protein</string>
+    <string name="sugar">sugar</string>
+    <string name="fat">fat</string>
+    <string name="delete_from_frigde">usuń z listy</string>
+    <string name="edit_quantity">edytuj ilość</string>
+    <string name="add_to_shopping_list">dodaj do listy zakupów</string>
+    <string name="show_similar_ingredients">pokaż zastępcze składniki</string>
+    <string name="delete_from_shopping_list">usuń z listy</string>
+    <string name="move_to_fridge">przenieś do lodówki</string>
+    <string name="food_app">FoodApp</string>
+    <string name="my_fridge">Lodówka</string>
+    <string name="find_recipes">Znajdź przepis</string>
+    <string name="saved_recipes">Zapisane przepisy</string>
+    <string name="browse_ingredients">Przeglądaj składniki</string>
+    <string name="shopping_list">Lista zakupów</string>
+    <string name="search_ingredient">szukaj składnika...</string>
+    <string name="recipe_details">Szczegóły przepisu</string>
+    <string-array name="types">
+        <item>gram</item>
+        <item>sztuk</item>
+        <item>łyżeczka</item>
+    </string-array>
+    <string-array name="difficulty">
+        <item>wybierz trudnosc</item>
+        <item>łatwe</item>
+        <item>średnie</item>
+        <item>trudne</item>
+    </string-array>
+    <string-array name="category">
+        <item>wybierz kategorie</item>
+        <item>śniadanie</item>
+        <item>drugie śniadanie</item>
+        <item>obiad</item>
+        <item>kolacja</item>
+        <item>podwieczorek</item>
+        <item>przekąska</item>
+        <item>deser</item>
+    </string-array>
+</resources>
+
